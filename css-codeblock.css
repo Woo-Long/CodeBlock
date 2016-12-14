@@ -1,0 +1,5 @@
+1. //css字符截取
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+// =======================================================================
