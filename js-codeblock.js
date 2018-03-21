@@ -109,7 +109,7 @@ this.timeFunc = setInterval(() => {
 
       const value = parseInt(time.getTime() - now.getTime()) / 1000
 
-      if (value < 0) {
+      if (value <= 0) {
         this.countdown = false
         this.stopTime()
         return
