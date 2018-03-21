@@ -89,3 +89,45 @@ String.format = function () {
         return str;
 };
 // =====================================================================================
+7. // 倒计时计时
+this.timeFunc = setInterval(() => {
+      this.getCountdown(this.headData.EndTimeTimeSpan)
+    }, 1000)
+
+// 补零
+    zerofill (num) {
+      return num.toString().length < 2 ? `0${num}` : num
+    },
+    // 停止倒计时
+    stopTime () {
+      clearInterval(this.timeFunc)
+    },
+    // 计算倒计时差
+    getCountdown (time) {
+      time = new Date(time)
+      const now = new Date()
+
+      const value = parseInt(time.getTime() - now.getTime()) / 1000
+
+      if (value < 0) {
+        this.countdown = false
+        this.stopTime()
+        return
+      }
+
+      // 相差天数
+      const days = this.zerofill(parseInt(value / 24 / 60 / 60))
+      // 相差小时
+      const hours = this.zerofill(parseInt(value / 60 / 60 % 24))
+      // 相差分钟
+      const minutes = this.zerofill(parseInt((value / 60 % 60)))
+      // 相差秒
+      const seconds = this.zerofill(parseInt(value % 60))
+
+      this.countdown = {
+        days,
+        hours,
+        minutes,
+        seconds
+      }
+    },
