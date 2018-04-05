@@ -2,4 +2,26 @@
 overflow: hidden;
 text-overflow: ellipsis;
 white-space: nowrap;
+
 // =======================================================================
+
+2. CSS光标下划线跟随效果
+li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 0;
+  height: 100%;
+  border-bottom: 2px solid #000;
+  transition: 0.2s all linear;
+}
+
+li:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+li:hover ~ li::before {
+  left: 0;
+}
