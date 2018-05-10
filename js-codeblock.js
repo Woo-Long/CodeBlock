@@ -131,3 +131,6 @@ this.timeFunc = setInterval(() => {
         seconds
       }
     },
+	    
+// 8. 随机字符串
+Math.random().toString(36).substr(2);
