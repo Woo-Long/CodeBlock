@@ -1,4 +1,4 @@
-window.videoApi = [
+videoApi = [
   { text: '百域学院', url: 'http://app.baiyug.cn:2019/vip/?url=' },
   { text: '旋风', url: 'http://api.xfsub.com/index.php?url=' },
   { text: '无名小站', url: 'http://www.82190555.com/video.php?url=' },
