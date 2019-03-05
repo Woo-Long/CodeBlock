@@ -12,8 +12,8 @@ window.videoApi = [
   { text: '大亨影院', url: 'http://jx.cesms.cn/?url=' },
   { text: '冰河', url: 'http://jiexi.duzhiqiang.com/?url=' },
   { text: '517', url: 'http://cn.bjbanshan.cn/jiexi.php?url=' },
-  { text: '综合-1', url: 'http://jx.zzit.cc/tv.php?url=' },
   { text: '综合-1', url: 'http://api.hlglwl.com/jx.php?url=' },
   { text: '综合-2', url: 'https://jx.biaoge.tv/index.php?url=' },
-  { text: '综合-3', url: 'http://tv.wandhi.com/api?url=' }
+  { text: '综合-3', url: 'http://tv.wandhi.com/api?url=' },
+  { text: '综合-4', url: 'http://jx.zzit.cc/tv.php?url=' },
 ]
