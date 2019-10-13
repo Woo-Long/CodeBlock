@@ -3,7 +3,7 @@ window.videoApi = [
   { text: '旋风', url: 'http://api.xfsub.com/index.php?url=' },
   { text: '无名小站', url: 'http://www.82190555.com/video.php?url=' },
   { text: 'jqaaa', url: 'http://jqaaa.com/jx.php?url=' },
-  { text: '优乐', url: 'http://jx.youlebe.com'},
+  { text: '优乐', url: 'http://jx.youlebe.com/index.php?url='},
   { text: 'ODFLV', url: 'https://yun.odflv.com/?url=' },
   { text: '1717云', url: 'http://www.1717yun.com/jx/ty.php?url=' },
   { text: 'Yun Parse', url: 'http://jx.api.163ren.com/vod.php?url=' },
