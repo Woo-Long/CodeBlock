@@ -16,4 +16,5 @@ window.videoApi = [
   { text: '综合-2', url: 'https://jx.biaoge.tv/index.php?url=' },
   { text: '综合-3', url: 'http://tv.wandhi.com/api?url=' },
   { text: '综合-4', url: 'http://jx.zzit.cc/tv.php?url=' },
+  { text: '维多', url: 'https://jx.ivito.cn/?url=' }
 ]
