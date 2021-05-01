@@ -1,4 +1,5 @@
 window.videoApi = [
+  { text: '小蒋极致', url: 'https://www.kpezp.cn/jlexi.php?url=' }
   { text: '旋风', url: 'http://api.xfsub.com/index.php?url=' },
   { text: '无名小站', url: 'http://www.82190555.com/video.php?url=' },
   { text: 'jqaaa', url: 'http://jqaaa.com/jx.php?url=' },
